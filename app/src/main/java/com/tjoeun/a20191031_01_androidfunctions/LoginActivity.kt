@@ -18,13 +18,16 @@ class LoginActivity : AppCompatActivity() {
 
         loginBtn.setOnClickListener {
             var userName = nameEdt.text.toString()
+            var userId = idEdt.text.toString()
             var userNumber = memberNumberEdt.text.toString()
+
 
 
             Toast.makeText(this, "${userNumber}번 ${userName} 회원님 환영합니다.", Toast.LENGTH_SHORT).show()
 
             var myIntent = Intent(this, MainActivity::class.java)
             myIntent.putExtra("name", userName)
+            myIntent.putExtra("memberId", userId)
             myIntent.putExtra("memberNumber", userNumber)
             startActivity(myIntent)
 
