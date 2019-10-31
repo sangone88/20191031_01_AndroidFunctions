@@ -20,13 +20,13 @@
         android:singleLine="true" />
 
     <TextView
-        android:id="@+id/memberNumberEdt"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="회원 번호" />
 
     <EditText
+        android:id="@+id/memberNumberEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number" />
@@ -50,7 +50,7 @@
             android:text="로그인" />
 
         <Button
-            android:id="@+id/joinBtn"
+            android:id="@+id/signUpBtn"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
