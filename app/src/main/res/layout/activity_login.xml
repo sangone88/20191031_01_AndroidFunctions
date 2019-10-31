@@ -14,11 +14,13 @@
         android:text="이름" />
 
     <EditText
+        android:id="@+id/nameEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true" />
 
     <TextView
+        android:id="@+id/memberNumberEdt"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,12 +43,14 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/loginBtn"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="로그인" />
 
         <Button
+            android:id="@+id/joinBtn"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
